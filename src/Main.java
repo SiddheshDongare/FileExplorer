@@ -23,8 +23,13 @@ public class Main {
             // Set JFrame visible
             frame.setVisible(true);
 
-            // Populate tree with files and folders
-            getFileTree(root, new File("C://Users//Siddhesh//Desktop"));
+            // Populate tree with files and folders recursively
+            File[] drives = File.listRoots();
+            for (File drive : drives){
+                DefaultMutableTreeNode driveNode = new DefaultMutableTreeNode(drive);
+                root.add(driveNode);
+                getFileTree(driveNode, drive);
+            }
         });
     }
 
