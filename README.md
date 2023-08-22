@@ -1,5 +1,5 @@
 
-![Logo](C:\Users\Siddhesh\Desktop\FileExplorer\assets\img\logo\logo.png)
+![Logo](YetAnotherFileExplorer/assets/img/logo/logo.png)
 
 
 # Yet Another File Explorer
