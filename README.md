@@ -1,5 +1,5 @@
 
-![Logo](C:\Users\Siddhesh\Desktop\FileExplorer\assets\img\logo\logo.png)
+![Logo](https://raw.githubusercontent.com/SiddheshDongare/YetAnotherFileExplorer/main/assets/img/logo/logo.png)
 
 
 # Yet Another File Explorer
